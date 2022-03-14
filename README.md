@@ -1,9 +1,13 @@
 KrakenSvm
 
-# Motativation
+## Motativation
 This was apart of my "Understanding of OS theoretical concepts" and emulator series. I enjoy my time with this project, if you're interested in AMD virtualization then read chapter 15 of the amd manual.
 ## Warning
-  This isn't finish yet, it's still a W.I.P so they may be errors. Feel free to report when possible and hooks aren't finish yet.
+  This project is yet to be finished. It's still a W.I.P so there maybe errors, so feel free to report any if possible. Syscall Hooks aren't finished yet.
+## TODO List:
+  - [ ] Finish setting up IPI to be executed on execute
+  - [ ] Finish up the SYSCALL Hooking
+  - [ ] Add fast page hooking
 ## Credit - Special Thanks:
   Thanks to these OGs, for the spark of inspiration/support and just being good friends/acquaintances overall on my continuous effort on this project and for helping me understand certain concepts within HyperVisor development Journey. =)
   * [xeroxz](https://twitter.com/_xeroxz?lang=en) - Helping explain concepts around HV and allowing me to use his code semantics for his amazing Hypervisor project
